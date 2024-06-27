@@ -1,0 +1,836 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naushahi Construction</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+
+        function menuToggle() {
+            let menuIcon = document.getElementsByClassName('menuIcon')[0];
+            let menu = document.getElementsByClassName('sidebar')[0];
+
+            if (menu.style.display === "none" || menu.style.display === "") {
+                menu.style.display = "flex";
+            } else {
+                menu.style.display = "none";
+            }
+
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="cLogo">
+            Naushahi Construction
+        </div>
+
+
+        <div class="menuIcon" onclick="menuToggle()">
+            <img src="public/svg/menuIcon.svg" alt="Menu Icon">
+        </div>
+
+        <div class="sidebar">
+            <a href="#" onclick="menuToggle()">X</a>
+            <a href="#home" onclick="menuToggle()">Home</a>
+            <a href="#about" onclick="menuToggle()">About</a>
+            <a href="#projectSection" onclick="menuToggle()">Projects</a>
+            <a href="#serviceSection" onclick="menuToggle()">Services</a>
+            <a href="#contactSection" onclick="menuToggle()">Contact</a>
+        </div>
+
+
+
+        <div class="menu">
+            <a href="#" onclick="menuToggle()">X</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projectSection">Projects</a>
+            <a href="#serviceSection">Services</a>
+            <a href="#contactSection">Contact</a>
+        </div>
+
+
+
+    </header>
+
+
+    <div class="home" id="home">
+
+        <div class="sideImage">
+            <img src="public/side.jpg" alt="">
+        </div>
+
+        <div class="homeLeft">
+            <p>
+                High<br>
+                end<br>
+                interiors<br>
+                <Span>&</Span> Exterior
+            </p>
+
+            <section>
+                Home interior design is all about imagination,
+                creativity and the ability to maximize the
+                overall visual appeal and functionality of a
+                given space.
+            </section>
+        </div>
+
+        <div class="homeRight">
+            <img src="public/bg3.jpg" alt="">
+        </div>
+
+    </div>
+
+    <!-- 
+    <div class="banner">
+
+        <div>
+            <div class="bannerImg">
+                <img src="public/svg/draw.svg" alt="">
+            </div>
+
+            <h2>Creative Plan & Design</h2>
+
+            <p>There are many variations of passages of lorem lpsum available, but the majority
+                have suffered alteration.
+            </p>
+        </div>
+
+
+
+        <div>
+            <div class="bannerImg">
+                <img src="public/svg/engineer.svg" alt="">
+            </div>
+
+            <h2>Talented Peoples</h2>
+
+            <p>There are many variations of passages of lorem lpsum available, but the majority
+                have suffered alteration.
+            </p>
+        </div>
+
+
+
+        <div>
+            <div class="bannerImg">F
+                <img src="public/svg/people.svg" alt="">
+            </div>
+
+            <h2>Creative Plan & Design</h2>
+
+            <p>There are many variations of passages of lorem lpsum available, but the majority
+                have suffered alteration.
+            </p>
+        </div>
+
+    </div> -->
+
+
+
+
+    <div class="about" id="about">
+        <div class="aboutLeft">
+            <span>About</span>
+            <h1>We love all our customers
+            </h1>
+            <p>
+                TYA blends engineering brilliance, creative design, and precise construction to deliver unmatched
+                infrastructure solutions across industries. We turn visions into reality, setting new standards and
+                enhancing experiences. Experience the pinnacle of infrastructure innovation with TYA.</p>
+        </div>
+
+        <div class="aboutRight">
+            <img src="public/about.png" alt="">
+        </div>
+    </div>
+
+    <div class="luxSection">
+        <div class="luxLeft">
+            <img src="public/Project/lux.jpg" alt="">
+        </div>
+
+        <div class="luxRight">
+            <div class="luxContent">
+                <h1>The luxury you've
+                    always wanted
+                </h1>
+
+                <p>InteriorX is specialized in providing elegant and
+                    stunning interor design services for both residential &
+                    commercial projects.
+                </p>
+
+            </div>
+
+            <div class="luxCount">
+
+                <div class="window">
+                    <h1>120+</h1>
+                    <p>Spaces Decorated</p>
+                </div>
+
+                <div class="window">
+                    <h1>7</h1>
+                    <p>Awards Gained</p>
+                </div>
+
+                <div class="window">
+                    <h1>11+</h1>
+                    <p>years Experience</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="projectSection" id="projectSection">
+
+        <div class="projectHeading">
+            <h1>Our Projects</h1>
+        </div>
+
+        <div class="projectCategory">
+
+            <div class="pCard">
+                <div class="pCardImg">
+                    <img src="public/Project/card1.jpg" alt="">
+                </div>
+
+                <p>modern</p>
+                <h1>New Modern Architecture</h1>
+            </div>
+
+            <div class="pCard">
+                <div class="pCardImg">
+                    <img src="public/Project/card2.jpg" alt="">
+                </div>
+
+                <p>CONSTRUCTIVISM</p>
+                <h1>Reinforced concrete frame</h1>
+            </div>
+
+            <div class="pCard">
+                <div class="pCardImg">
+                    <img src="public/Project/Abhyuday-01.jpg" alt="">
+                </div>
+
+                <p>modern</p>
+                <h1>The best young interior design company</h1>
+            </div>
+
+        </div>
+
+        <div class="projectGallery">
+
+            <div class="galleryHeading">
+                <h1>Project Gallery</h1>
+            </div>
+
+            <div class="projects">
+
+
+                <div class="project">
+                    <div class="pDetails">
+                        <h1>Rose Villa</h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe voluptate voluptas eaque
+                            architecto, dolore fugit possimus voluptatum. Incidunt, sapiente est?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptas culpa pariatur
+                            praesentium autem beatae maiores reiciendis, rerum eos nobis!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rem laudantium, repellat
+                            culpa, vero esse eveniet quisquam fugit perspiciatis eligendi facilis quos. Dolorum
+                            asperiores rerum culpa neque saepe. Quaerat necessitatibus laboriosam asperiores provident
+                            dolor quia optio, dolorem odit corrupti molestiae?
+
+                        </p>
+                    </div>
+
+                    <div class="pPhotos">
+                        <img src="public/Project/n1.jpg" alt="">
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="project">
+
+
+                    <div class="pPhotos" style="text-align: left;">
+                        <img src="public/Project/n4.jpg" alt="">
+                    </div>
+
+
+                    <div class="pDetails">
+                        <h1>Wilson House</h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe voluptate voluptas eaque
+                            architecto, dolore fugit possimus voluptatum. Incidunt, sapiente est?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptas culpa pariatur
+                            praesentium autem beatae maiores reiciendis, rerum eos nobis!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rem laudantium, repellat
+                            culpa, vero esse eveniet quisquam fugit perspiciatis eligendi facilis quos. Dolorum
+                            asperiores rerum culpa neque saepe. Quaerat necessitatibus laboriosam asperiores provident
+                            dolor quia optio, dolorem odit corrupti molestiae?
+                        </p>
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div class="project">
+                    <div class="pDetails">
+                        <h1>Green Garden</h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe voluptate voluptas eaque
+                            architecto, dolore fugit possimus voluptatum. Incidunt, sapiente est?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptas culpa pariatur
+                            praesentium autem beatae maiores reiciendis, rerum eos nobis!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rem laudantium, repellat
+                            culpa, vero esse eveniet quisquam fugit perspiciatis eligendi facilis quos. Dolorum
+                            asperiores rerum culpa neque saepe. Quaerat necessitatibus laboriosam asperiores provident
+                            dolor quia optio, dolorem odit corrupti molestiae?
+
+                        </p>
+                    </div>
+
+                    <div class="pPhotos">
+                        <img src="public/Project/Abhyuday-01.jpg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="cProjects">
+
+                <div class="count">
+                    <h1>120+</h1>
+                    <p>Spaces Decorated</p>
+                </div>
+
+                <div class="count">
+                    <h1>7+</h1>
+                    <p>Awards Gained</p>
+                </div>
+
+                <div class="count">
+                    <h1>11+</h1>
+                    <p>years Experience</p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- Explore Us Section  -->
+
+        <div class="exploreUs">
+
+            <div class="exploreHeading">
+                <h1>Explore Us</h1>
+            </div>
+
+
+            <div class="workSection">
+
+                <div class="workTitle">
+                    <p>Civil Construction</p>
+                </div>
+
+                <div class="workParagraph">
+                    Our experienced team handles all aspects of civil construction, from site preparation and foundation
+                    work to full-scale infrastructure projects. We bring technical expertise and meticulous attention to
+                    detail to each project, ensuring robust and sustainable construction. Our services include road
+                    construction, bridge building, utility infrastructure, and more, delivered with a commitment to
+                    safety and excellence.
+                </div>
+
+
+                <div class="workImages">
+
+
+                    <div class="workImage">
+                        <img src="/public/Civil/1.png" alt="">
+                    </div>
+
+
+
+
+                    <div class="workImage">
+                        <img src="/public/Civil/2.png" alt="">
+                    </div>
+
+
+
+
+                    <div class="workImage">
+                        <img src="/public/Civil/3.png" alt="">
+                    </div>
+
+
+
+
+                    <div class="workImage">
+                        <img src="/public/Civil/4.png" alt="">
+                    </div>
+
+
+
+
+                    <div class="workImage">
+                        <img src="/public/Civil/5.png" alt="">
+                    </div>
+
+
+
+
+                    <div class="workImage">
+                        <img src="/public/Civil/6.png" alt="">
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <hr>
+
+
+
+
+        <!-- Second Explore Us COntainer  -->
+
+
+        <div class="exploreUs">
+
+            <div class="workSection">
+
+
+                <div class="workImages">
+
+
+                    <div class="workImage2">
+
+                        <div class="workTitle2">
+                            <p>Interior Design</p>
+                        </div>
+
+                        <div class="workParagraph">
+                            Transform your spaces with our innovative and customized interior design services. We focus
+                            on creating aesthetically pleasing and functional environments that reflect your style and
+                            enhance your living or working experience.
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="workImage">
+                        <img src="/public/Interior/1.png" alt="">
+                    </div>
+
+
+
+                    <div class="workImage2" style="margin: auto;">
+
+
+                        <div class="workParagraph">
+                            Our design process involves close collaboration
+                            with clients to understand their vision, followed by the implementation of creative
+                            solutions that optimize space and comfort.
+
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="workImage">
+                        <img src="/public/Interior/2.png" alt="">
+                    </div>
+
+
+                    <div class="workImage">
+                        <img src="/public/Interior/3.png" alt="">
+                    </div>
+
+
+
+                    <div class="workImage">
+                        <img src="/public/Interior/4.png" alt="">
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <hr>
+
+
+        <!-- Third Explore Us COntainer  -->
+
+        <div class="exploreUs">
+
+
+            <div class="workSection">
+
+                <div class="workTitle">
+                    <p>PEB (Pre-Engineered Buildings)</p>
+                </div>
+
+
+                <div class="workParagraph">
+                    We offer high-quality, efficient, and cost-effective pre-engineered building solutions
+                    tailored to your specific requirements. Our PEB structures are designed with precision,
+                    ensuring durability, flexibility, and quick installation. Whether you need industrial
+                    warehouses, commercial complexes, or custom-designed buildings, our PEB solutions provide a
+                    versatile and reliable option that meets stringent quality standards.
+
+
+                </div>
+
+
+                <div class="workImages">
+
+
+                    <div class="workImage">
+                        <img src="/public/Ped/1.jpg" alt="">
+                    </div>
+
+
+
+                    <div class="workImage">
+                        <img src="/public/Ped/2.jpg" alt="">
+                    </div>
+
+
+
+                    <div class="workImage">
+                        <img src="/public/Ped/3.jpg" alt="">
+                    </div>
+
+
+
+                    <div class="workImage">
+                        <img src="/public/Ped/4.jpg" alt="">
+                    </div>
+
+
+
+                    <div class="workImage">
+                        <img src="/public/Ped/5.jpg" alt="">
+                    </div>
+
+
+
+                    <div class="workImage">
+                        <img src="/public/Ped/6.jpg" alt="">
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <hr>
+
+
+
+        <!-- Foruth Explore Us COntainer  -->
+
+
+        <div class="exploreUs">
+
+            <div class="workSection">
+
+
+                <div class="workImages">
+
+
+                    <div class="workImage2">
+
+                        <div class="workTitle2">
+                            <p>Elevation Work</p>
+                        </div>
+
+                        <div class="workParagraph">
+
+                            Enhance the exterior of your buildings with our expert elevation work. We provide striking
+                            designs
+                            that add value and curb appeal to your properties. Our elevation services include facade
+                            treatments,
+                            exterior remodeling, and decorative elements that transform the look of your building,
+                            making it
+                            stand out and leave a lasting impression.
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="workImage">
+                        <img src="/public/Fountain/1.png" alt="">
+                    </div>
+
+
+                    <div class="workImage">
+                        <img src="/public/Fountain/2.jpg" alt="">
+                    </div>
+
+
+                    <div class="workImage">
+                        <img src="/public/Fountain/3.png" alt="">
+                    </div>
+
+
+                    <div class="workImage">
+                        <img src="/public/Fountain/5.png" alt="">
+                    </div>
+
+
+                    <div class="workImage">
+                        <img src="/public/Fountain/6.png" alt="">
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <hr>
+
+
+
+        <!-- Engineers Section  -->
+
+        <div class="engineersSection">
+            <h1>Our Best Engineers </h1>
+
+            <div class="engineersList">
+
+
+                <div class="engineerCard">
+                    <div class="engImg">
+                        <img src="public/eng/eng1.png" alt="">
+                    </div>
+
+                    <h1>Chris Evans</h1>
+                    <p>Michigan, TX</p>
+
+                    <div class="engContact">
+                        <p>125-2252-555</p>
+                        <span>abc@gmail.com</span>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="serviceSection" id="serviceSection">
+
+        <div class="servicesHeader">
+            <h1>Pricing for our Projects</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius doloribus sapiente nisi! Alias eum nemo
+                id, corrupti nobis quis.</p>
+        </div>
+
+        <div class="services">
+
+            <div class="service">
+                <div class="serviceDetails">
+                    <h1>Design Project</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias fuga in tempora facilis tenetur
+                        repellat!</p>
+                    <h1>$45,500</h1>
+                </div>
+
+                <div class="buyBtn">
+                    <button>Buy now</button>
+                </div>
+
+                <div class="serviceList">
+                    <ul>
+                        <li>Architect Hourly Rate</li>
+                        <li>Combination</li>
+                        <li>Architectural Plans</li>
+                        <li>Fixed Fees</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="service">
+                <div class="serviceDetails">
+                    <h1>Work Project</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias fuga in tempora facilis tenetur
+                        repellat!</p>
+                    <h1>$45,500</h1>
+                </div>
+
+                <div class="buyBtn">
+                    <button>Buy now</button>
+                </div>
+
+                <div class="serviceList">
+                    <ul>
+                        <li>Architect Hourly Rate</li>
+                        <li>Combination</li>
+                        <li>Architectural Plans</li>
+                        <li>Fixed Fees</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="service">
+                <div class="serviceDetails">
+                    <h1>Sketch Project</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias fuga in tempora facilis tenetur
+                        repellat!</p>
+                    <h1>$45,500</h1>
+                </div>
+
+                <div class="buyBtn">
+                    <button>Buy now</button>
+                </div>
+
+                <div class="serviceList">
+                    <ul>
+                        <li>Architect Hourly Rate</li>
+                        <li>Combination</li>
+                        <li>Architectural Plans</li>
+                        <li>Fixed Fees</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="contactSection" id="contactSection">
+
+        <div class="contactHeading">
+            <h1>Contact Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum doloribus tenetur quibusdam facere
+                inventore aperiam.</p>
+        </div>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="b04ad689-8a47-4a35-a55a-38639fe7dcee">
+
+
+            <div class="leftContact">
+
+                <input type="text" name="name" id="" placeholder="Name">
+                <input type="email" name="email" id="" placeholder="email">
+                <input type="text" name="subject" id="" placeholder="subject">
+                <textarea name="message" id="" placeholder="Message"></textarea>
+                <button>Submit</button>
+
+
+            </div>
+            <div class="rightContact">
+                <img src="public/map.png" alt="">
+            </div>
+
+        </form>
+    </div>
+
+    <footer>
+        <div class="footerLogo">
+            <h1>Naushahi Construction</h1>
+            <p>Committed to Superior Quality
+                and Results
+            </p>
+        </div>
+
+
+        <div class="contactInfo">
+            <h2>Contact :</h2>
+            <p>Deewan Ka Bazar, Moradabad - 244001</p>
+            <p>+91 88594 08365</p>
+
+            <div class="SocialMedia">
+
+                <a href="">
+                    <img src="public/svg/linkedin.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="public/svg/insta.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="public/svg/twitter.svg" alt="">
+                </a>
+
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
